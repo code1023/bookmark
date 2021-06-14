@@ -31,3 +31,4 @@ class BookmarkCreateView(CreateView):
 
 class BookmarkListView(ListView):
     model = Bookmark
+    paginate_by = 6  # 페이징 기능
